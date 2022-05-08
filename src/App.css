@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to top left, #043f0e 0%, #49ce71 100%);
+}
+.ttt-table {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  margin: auto;
+}
+.cell {
+  grid-row-end: span 1;
+  grid-column-end: span 1;
+  border: 4px solid;
+  font-size: 60px;
+  user-select: none;
+}
